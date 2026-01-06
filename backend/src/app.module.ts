@@ -10,6 +10,7 @@ import { VisitModule } from './modules/visit/visit.module';
 import { ClinicalModule } from './modules/clinical/clinical.module';
 import { ReportingModule } from './modules/reporting/reporting.module';
 import { AuthModule } from './modules/auth/auth.module';
+import { FormSchemaModule } from './modules/form-schema/form-schema.module';
 
 // Config
 import databaseConfig from './config/database.config';
@@ -57,6 +58,7 @@ import databaseConfig from './config/database.config';
     ClinicalModule,
     ReportingModule,
     AuthModule,
+    FormSchemaModule,
   ],
 })
 export class AppModule {}

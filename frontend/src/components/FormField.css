@@ -1,0 +1,7 @@
+/* Form Field Styles - Individual field styling */
+
+.form-field {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
