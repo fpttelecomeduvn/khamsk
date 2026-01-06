@@ -1,0 +1,305 @@
+{
+  "xrayTemplates": [
+    {
+      "id": "abdomen_preparation",
+      "name": "Xquang Ổ Bụng Không Chuẩn Bị",
+      "category": "Ổ Bụng",
+      "templates": [
+        {
+          "id": "obbt_1",
+          "title": "OBBT - Bình thường",
+          "description": "- Không thấy hình ảnh liềm hơi dưới vòm hoành hai bên.\n- Không thấy hình ảnh mức nước - mức hơi.",
+          "conclusion": "Không thấy hình ảnh bất thường trên film chụp Xquang ổ bụng không chuẩn bị"
+        },
+        {
+          "id": "obbt_2",
+          "title": "OB Nghiêng - Bình thường",
+          "description": "- Không thấy hình ảnh hơi tự do ở dưới hạ sườn phải, trái.\n- Không thấy hình ảnh mức nước - mức hơi.",
+          "conclusion": "Không thấy hình ảnh bất thường trên film chụp Xquang ổ bụng nghiêng"
+        }
+      ]
+    },
+    {
+      "id": "urinary_system",
+      "name": "Xquang Hệ Tiết Niệu Không Chuẩn Bị",
+      "category": "Hệ Tiết Niệu",
+      "templates": [
+        {
+          "id": "urinary_1",
+          "title": "Có Sonde JJ",
+          "description": "- Có hình ảnh sonde JJ từ bóng thận xuống đến tiểu khung.",
+          "conclusion": "Hình ảnh còn sonde JJ trên film chụp."
+        },
+        {
+          "id": "urinary_2",
+          "title": "Không Thấy Sỏi",
+          "description": "- Không thấy hình ảnh sỏi cản quang trên film chụp",
+          "conclusion": "Hiện tại không thấy hình ảnh sỏi cản quang trên film chụp hệ tiết niệu không chuẩn bị"
+        }
+      ]
+    },
+    {
+      "id": "chest_xray",
+      "name": "Xquang Tim Phổi Thẳng",
+      "category": "Lồng Ngực",
+      "templates": [
+        {
+          "id": "chest_1",
+          "title": "Bình Thường",
+          "description": "- Lồng ngực cân đối, không thấy bất thường xương và phần mềm thành ngực.\n- Góc sườn hoành hai bên sáng, không thấy tràn dịch tràn khí màng phổi hai bên.\n- Phổi hai bên: sáng đều, không thấy tổn thương nhu mô.\n- Rốn phổi hai bên không thấy bất thường.\n- Hình tim không to. Các bờ trung thất bình thường.",
+          "conclusion": "Hiện tại không thấy bất thường trên film chụp Xquang lồng ngực thẳng."
+        },
+        {
+          "id": "chest_2",
+          "title": "Tăng Huyết Áp",
+          "description": "- Lồng ngực cân đối, không thấy bất thường xương và phần mềm thành ngực.\n- Góc sườn hoành hai bên sáng, không thấy tràn dịch tràn khí màng phổi hai bên.\n- Phổi hai bên: sáng đều, không thấy tổn thương nhu mô.\n- Rốn phổi hai bên không thấy bất thường.\n- Hình tim không to. Cung ĐMC nổi",
+          "conclusion": "Hiện tại không thấy bất thường trên film chụp Xquang lồng ngực thẳng."
+        },
+        {
+          "id": "chest_3",
+          "title": "Theo Dõi Viêm Phế Quản Phổi",
+          "description": "- Lồng ngực cân đối, không thấy bất thường xương và phần mềm thành ngực.\n- Góc sườn hoành hai bên sáng, không thấy tràn dịch tràn khí màng phổi hai bên.\n- Phổi hai bên: Trường phổi hai bên kém sáng, vùng rốn phổi và cạnh tim hai bên rải rác có vài nốt mờ nhỏ. Mờ dọc các nhánh huyết quản ở thùy dưới phổi hai bên.\n- Hình tim không to. Các bờ trung thất bình thường.",
+          "conclusion": "Hình ảnh theo dõi viêm phế quản phổi."
+        },
+        {
+          "id": "chest_4",
+          "title": "Diện Tim To",
+          "description": "- Lồng ngực cân đối, không thấy bất thường xương và phần mềm thành ngực.\n- Góc sườn hoành hai bên sáng, không thấy tràn dịch tràn khí màng phổi hai bên.\n- Hai phổi ứ huyết.\n- Rốn phổi hai bên tăng đậm.\n- Diện tim to toàn bộ.",
+          "conclusion": "Hình ảnh diện tim to."
+        },
+        {
+          "id": "chest_5",
+          "title": "Phổi Dày Tổ Chức Kẽ",
+          "description": "- Lồng ngực cân đối, không thấy bất thường xương và phần mềm thành ngực.\n- Góc sườn hoành hai bên sáng, không thấy tràn dịch tràn khí màng phổi hai bên.\n- Phổi hai bên: Dày tổ chức kẽ vùng đáy phổi hai bên.\n- Rốn phổi hai bên không thấy bất thường.\n- Hình tim không to. Các bờ trung thất bình thường.",
+          "conclusion": "Hình ảnh dày tổ chức kẽ vùng đáy phổi hai bên."
+        }
+      ]
+    },
+    {
+      "id": "spine_cervical",
+      "name": "Xquang Cột Sống Cổ Thẳng - Nghiêng",
+      "category": "Cột Sống",
+      "templates": [
+        {
+          "id": "cervical_1",
+          "title": "Bình Thường",
+          "description": "- Cột sống cổ có đường cong sinh lý bình thường.\n- Không thấy bất thường về hình thái, đậm độ xương các thân đốt sống.\n- Không thấy trượt, xẹp các thân đốt sống.\n- Không thấy tổn thương cuống sống và các cung sau.\n- Các khe đĩa đệm không hẹp\n- Không thấy bất thường phần mềm quanh cột sống.",
+          "conclusion": "Hiện tại không thấy bất thường trên film chụp X quang cột sống cổ"
+        },
+        {
+          "id": "cervical_2",
+          "title": "Thoái Hóa",
+          "description": "- Cột sống cổ giảm đường cong sinh lý.\n- Mỏ xương thoái hóa bờ các thân đốt sống cổ C\n- Các khe đĩa đệm không hẹp.\n- Không thấy tổn thương cuống sống và các cung sau.\n- Không thấy bất thường phần mềm quanh cột sống.",
+          "conclusion": "Hình ảnh thoái hóa cột sống cổ"
+        }
+      ]
+    },
+    {
+      "id": "spine_lumbar",
+      "name": "Xquang Cột Sống Thắt Lưng",
+      "category": "Cột Sống",
+      "templates": [
+        {
+          "id": "lumbar_1",
+          "title": "Bình Thường",
+          "description": "- Cột sống thắt lưng có đường cong sinh lý bình thường.\n- Không thấy bất thường về hình thái, đậm độ xương các thân đốt sống.\n- Không thấy trượt, xẹp các thân đốt sống.\n- Không thấy tổn thương cuống sống và các cung sau.\n- Các khe đĩa đệm không hẹp.\n- Không thấy bất thường phần mềm quanh cột sống.",
+          "conclusion": "Hiện tại không thấy bất thường trên film chup X quang cột sống thắt lưng"
+        },
+        {
+          "id": "lumbar_2",
+          "title": "Thoái Hóa",
+          "description": "- Cột sống thắt lưng giảm đường cong sinh lý.\n- Mỏ xương thoái hóa bờ các thân đốt sống thắt lưng L\n- Các khe đĩa đệm không hẹp.\n- Không thấy tổn thương cuống sống và các cung sau.\n- Không thấy bất thường phần mềm quanh cột sống.",
+          "conclusion": "Hình ảnh thoái hóa cột sống thắt lưng"
+        }
+      ]
+    },
+    {
+      "id": "biliary_system",
+      "name": "Xquang Đường Mật - Kehr",
+      "category": "Đường Mật",
+      "templates": [
+        {
+          "id": "kehr_1",
+          "title": "Bình Thường",
+          "description": "- Thuốc cản quang lưu thông xuống ruột non tốt.\n- Đường mật trong gan: thuốc lưu thông tốt, không thấy hình ảnh khuyết thuốc cản quang.\n- Không thấy hình ảnh thoát thuốc ra ổ bụng.",
+          "conclusion": "Hình ảnh chụp đường mật qua Kehr không thấy bất thường."
+        }
+      ]
+    },
+    {
+      "id": "joint_wrist",
+      "name": "Xquang Khớp Cổ Tay",
+      "category": "Khớp Chi",
+      "templates": [
+        {
+          "id": "wrist_1",
+          "title": "Bình Thường",
+          "description": "- Không thấy trật khớp.\n- Khe khớp đều không hẹp.\n- Không thấy tổn thương xương diện khớp và các xương vùng cổ tay.\n- Không thấy bất thường phần mềm quanh khớp.",
+          "conclusion": "Hình ảnh Xquang khớp cổ tay không thấy bất thường."
+        }
+      ]
+    },
+    {
+      "id": "joint_knee",
+      "name": "Xquang Khớp Gối",
+      "category": "Khớp Chi",
+      "templates": [
+        {
+          "id": "knee_1",
+          "title": "Bình Thường",
+          "description": "- Không thấy tổn thương xương diện khớp đầu dưới xương đùi, đầu trên xương chày, xương mác và xương bánh chè.\n- Không thấy trật khớp.\n- Khe khớp đều, không hẹp.\n- Không thấy bất thương phần mềm quanh khớp.",
+          "conclusion": "Hình ảnh Xquang khớp gối không thấy bất thường."
+        },
+        {
+          "id": "knee_2",
+          "title": "Thoái Hóa",
+          "description": "- Hình ảnh thoái hóa dạng mỏ xương ở đầu dưới xương đùi, đầu trên xương chày, xương mác và xương bánh chè.\n- Không thấy trật khớp.\n- Hẹp khe khớp khu trú.\n- Không thấy bất thương phần mềm quanh khớp.",
+          "conclusion": "Hình ảnh thoái hóa khớp gối"
+        }
+      ]
+    },
+    {
+      "id": "joint_shoulder",
+      "name": "Xquang Khớp Vai Thẳng",
+      "category": "Khớp Chi",
+      "templates": [
+        {
+          "id": "shoulder_1",
+          "title": "Bình Thường",
+          "description": "- Khe khớp không hẹp, không thấy cản quang bất thường trong và quanh ổ khớp.\n- Không thấy tổn thương xương ổ chảo, chỏm và đầu trên xương cánh tay.\n- Không thấy bất thường phần mềm vùng quanh khớp vai.",
+          "conclusion": "Không thấy hình ảnh bất thường trên film chụp Xquang khớp vai thẳng"
+        }
+      ]
+    },
+    {
+      "id": "sinuses",
+      "name": "Xquang Xoang - Blondeaux & Hirtz",
+      "category": "Vùng Đầu",
+      "templates": [
+        {
+          "id": "sinus_1",
+          "title": "Bình Thường",
+          "description": "- Xoang trán, xoang hàm, xoang bướm, xoang sàng hai bên sáng, không thấy mức dịch\n- Thành các xoang rõ nét, không thấy tổn thương xương thành xoang.\n- Không thấy tổn thương xương vùng hàm mặt.\n- Vách ngăn mũi không lệch, cuốn mũi bình thường",
+          "conclusion": "Hiên tại không thấy bất thường trên film chụp Xquang Blondeaux – Hirtz"
+        }
+      ]
+    },
+    {
+      "id": "pelvis",
+      "name": "Xquang Khung Chậu Thẳng",
+      "category": "Khung Chậu",
+      "templates": [
+        {
+          "id": "pelvis_1",
+          "title": "Bình Thường",
+          "description": "- Không thấy hình ảnh tổn thương xương chậu, đầu trên xương đùi hai bên.\n- Ổ cối hai bên không thấy khối bất thường\n- Khớp cùng chậu hai bên không thấy bất thường.",
+          "conclusion": "Hiện tại không thấy bất thường trên film chụp Xquang khung chậu"
+        }
+      ]
+    },
+    {
+      "id": "joint_elbow",
+      "name": "Xquang Khớp Khuỷu Tay Thẳng - Nghiêng",
+      "category": "Khớp Chi",
+      "templates": [
+        {
+          "id": "elbow_1",
+          "title": "Bình Thường",
+          "description": "- Khe khớp không hẹp, không thấy cản quang bất thường trong và quanh ổ khớp.\n- Không thấy tổn thương xương ở đầu trên xương trụ, xương quay và đầu dưới xương cánh tay.\n- Không thấy bất thường phần mềm vùng quanh khớp khuỷu",
+          "conclusion": "Không thấy hình ảnh bất thường trên film chụp Xquang khớp khuỷu tay thẳng - nghiêng"
+        }
+      ]
+    },
+    {
+      "id": "joint_ankle",
+      "name": "Xquang Khớp Cổ Chân Thẳng - Nghiêng",
+      "category": "Khớp Chi",
+      "templates": [
+        {
+          "id": "ankle_1",
+          "title": "Bình Thường",
+          "description": "- Khe khớp không hẹp, không thấy cản quang bất thường trong và quanh ổ khớp.\n- Không thấy tổn thương các xương đầu dưới hai xương cẳng chân và các xương cổ chân\n- Không thấy bất thường phần mềm vùng quanh khớp cổ chân",
+          "conclusion": "Không thấy hình ảnh bất thường trên film chụp Xquang khớp cổ chân thẳng -nghiêng"
+        }
+      ]
+    },
+    {
+      "id": "limbs_long_bones",
+      "name": "Xquang Xương Chi - Xương Dài",
+      "category": "Xương Chi",
+      "templates": [
+        {
+          "id": "limbs_1",
+          "title": "Bình Thường",
+          "description": "- Không thấy hình ảnh tổn thương xương\n- Không thấy hình ảnh tổn thương phần mềm xung quanh",
+          "conclusion": "Hiện tại không thấy hình ảnh bất thường trên film chụp Xquang."
+        }
+      ]
+    },
+    {
+      "id": "face",
+      "name": "Xquang Xương Mặt Thẳng",
+      "category": "Vùng Đầu",
+      "templates": [
+        {
+          "id": "face_1",
+          "title": "Bình Thường",
+          "description": "- Không thấy hình ảnh tổn thương xương vùng sọ mặt.",
+          "conclusion": "Hiện tại không thấy bất thường trên film chụp xương mặt thẳng."
+        }
+      ]
+    },
+    {
+      "id": "skull",
+      "name": "Xquang Xương Hộp Sọ Thẳng - Nghiêng",
+      "category": "Vùng Đầu",
+      "templates": [
+        {
+          "id": "skull_1",
+          "title": "Bình Thường",
+          "description": "- Không thấy tổn thương xương hộp sọ.",
+          "conclusion": "Hiện không thấy bất thường trên film chụp xương hộp sọ thẳng – nghiêng"
+        }
+      ]
+    },
+    {
+      "id": "breast",
+      "name": "Xquang Tuyến Vú Hai Bên",
+      "category": "Tuyến Vú",
+      "templates": [
+        {
+          "id": "breast_1",
+          "title": "Bình Thường",
+          "description": "Tuyến vú phải:\n- Đậm độ mô tuyến loại C\n- Không thấy khối bất thường trên phim.\n- Không thấy hình ảnh bất cân xứng nhu mô và cấu trúc ống tuyến hai bên\n- Không thấy hình ảnh co kéo da, núm vú\n- Không thấy tổn thương vi vôi hóa trên phim\n\nTuyến vú trái:\n- Đậm độ mô tuyến loại C\n- Không thấy khối bất thường trên phim.\n- Không thấy hình ảnh bất cân xứng nhu mô và cấu trúc ống tuyến hai bên\n- Không thấy hình ảnh co kéo da, núm vú\n- Không thấy tổn thương vi vôi hóa trên phim\n\nCác cơ vùng ngực trước phải – trái không thấy bất thường.\nHố nách bên phải – trái: Không thấy hạch to hay khối bất thường vùng nách hai bên.",
+          "conclusion": "Hiện tại không thấy bất thường trên Xquang tuyến vú hai bên (BIRADS - 1)"
+        }
+      ]
+    },
+    {
+      "id": "breast_right",
+      "name": "Xquang Tuyến Vú Phải",
+      "category": "Tuyến Vú",
+      "templates": [
+        {
+          "id": "breast_right_1",
+          "title": "Bình Thường",
+          "description": "Tuyến vú phải:\n- Đậm độ mô tuyến loại C\n- Không thấy khối bất thường trên phim.\n- Không thấy hình ảnh bất cân xứng nhu mô và cấu trúc ống tuyến hai bên\n- Không thấy hình ảnh co kéo da, núm vú\n- Không thấy tổn thương vi vôi hóa trên phim\n\nCác cơ vùng ngực trước phải: không thấy bất thường.\nHố nách bên phải: Không thấy hạch to hay khối bất thường vùng nách hai bên.",
+          "conclusion": "Hiện tại không thấy bất thường trên Xquang tuyến vú bên phải(BIRADS - 1)"
+        }
+      ]
+    },
+    {
+      "id": "breast_left",
+      "name": "Xquang Tuyến Vú Trái",
+      "category": "Tuyến Vú",
+      "templates": [
+        {
+          "id": "breast_left_1",
+          "title": "Bình Thường",
+          "description": "Tuyến vú trái:\n- Đậm độ mô tuyến loại C\n- Không thấy khối bất thường trên phim.\n- Không thấy hình ảnh bất cân xứng nhu mô và cấu trúc ống tuyến hai bên\n- Không thấy hình ảnh co kéo da, núm vú\n- Không thấy tổn thương vi vôi hóa trên phim\n\nCác cơ vùng ngực trước trái: không thấy bất thường.\nHố nách bên trái: Không thấy hạch to hay khối bất thường vùng nách hai bên.",
+          "conclusion": "Hiện tại không thấy bất thường trên Xquang tuyến vú bên trái (BIRADS - 1)"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,487 @@
+.conclusion-page {
+  animation: fadeIn 0.3s ease-in;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(10px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.btn-back {
+  padding: 10px 20px;
+  background: #e8eef7;
+  color: #667eea;
+  border: 1px solid #667eea;
+  border-radius: 4px;
+  font-size: 14px;
+  font-weight: 600;
+  cursor: pointer;
+  margin-bottom: 20px;
+  transition: all 0.3s;
+}
+
+.btn-back:hover {
+  background: #667eea;
+  color: white;
+  transform: translateX(-3px);
+}
+
+.conclusion-container {
+  background: white;
+  border-radius: 8px;
+  padding: 30px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+.conclusion-container h2 {
+  color: #333;
+  margin: 0 0 5px 0;
+  font-size: 28px;
+}
+
+.patient-info {
+  color: #666;
+  margin: 0 0 30px 0;
+  font-size: 14px;
+}
+
+.conclusion-content {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+
+/* Summary Section */
+.summary-section h3 {
+  color: #333;
+  font-size: 18px;
+  margin: 0 0 15px 0;
+  padding-bottom: 10px;
+  border-bottom: 2px solid #667eea;
+}
+
+.test-summary {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 15px;
+}
+
+.test-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 12px 15px;
+  background: #f8f9ff;
+  border: 1px solid #e0e5ff;
+  border-radius: 6px;
+  transition: all 0.3s;
+}
+
+.test-item:hover {
+  background: #f0f4ff;
+  border-color: #667eea;
+}
+
+.test-name {
+  font-weight: 600;
+  color: #333;
+  font-size: 14px;
+}
+
+.test-status {
+  padding: 4px 12px;
+  border-radius: 20px;
+  font-size: 12px;
+  font-weight: 600;
+}
+
+.test-status.completed {
+  background: #d4edda;
+  color: #155724;
+}
+
+.test-status.pending {
+  background: #fff3cd;
+  color: #856404;
+}
+
+/* Health Level Section */
+.health-level-section h3 {
+  color: #333;
+  font-size: 18px;
+  margin: 0 0 15px 0;
+  padding-bottom: 10px;
+  border-bottom: 2px solid #667eea;
+}
+
+.health-level-selector {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+  gap: 12px;
+  margin-bottom: 15px;
+}
+
+.health-level-selector label {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  cursor: pointer;
+}
+
+.health-level-selector input[type="radio"] {
+  width: 18px;
+  height: 18px;
+  cursor: pointer;
+}
+
+.health-badge {
+  padding: 6px 12px;
+  border-radius: 20px;
+  font-size: 13px;
+  font-weight: 600;
+  transition: all 0.3s;
+}
+
+.health-excellent {
+  background: #d4edda;
+  color: #155724;
+}
+
+.health-good {
+  background: #d1ecf1;
+  color: #0c5460;
+}
+
+.health-fair {
+  background: #fff3cd;
+  color: #856404;
+}
+
+.health-poor {
+  background: #f8d7da;
+  color: #721c24;
+}
+
+.health-description {
+  color: #666;
+  font-size: 13px;
+  margin: 10px 0 0 0;
+  padding: 10px 15px;
+  background: #f9f9f9;
+  border-left: 4px solid #667eea;
+  border-radius: 4px;
+}
+
+/* Conclusion Section */
+.conclusion-section h3,
+.recommendations-section h3,
+.doctor-section h3 {
+  color: #333;
+  font-size: 18px;
+  margin: 0 0 15px 0;
+  padding-bottom: 10px;
+  border-bottom: 2px solid #667eea;
+}
+
+.conclusion-textarea,
+.recommendations-textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ddd;
+  border-radius: 6px;
+  font-family: inherit;
+  font-size: 14px;
+  resize: vertical;
+  transition: border-color 0.3s;
+}
+
+.conclusion-textarea:focus,
+.recommendations-textarea:focus {
+  outline: none;
+  border-color: #667eea;
+  box-shadow: 0 0 0 3px rgba(102, 126, 234, 0.1);
+}
+
+/* Doctor Section */
+.doctor-section .form-group {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.doctor-section label {
+  font-weight: 600;
+  color: #333;
+  font-size: 14px;
+}
+
+.doctor-section input {
+  padding: 12px;
+  border: 1px solid #ddd;
+  border-radius: 6px;
+  font-size: 14px;
+  transition: border-color 0.3s;
+}
+
+.doctor-section input:focus {
+  outline: none;
+  border-color: #667eea;
+  box-shadow: 0 0 0 3px rgba(102, 126, 234, 0.1);
+}
+
+/* Action Section */
+.action-section {
+  display: flex;
+  gap: 15px;
+  justify-content: center;
+  margin-top: 20px;
+  padding-top: 20px;
+  border-top: 1px solid #eee;
+}
+
+.btn-print {
+  padding: 12px 30px;
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  color: white;
+  border: none;
+  border-radius: 6px;
+  font-size: 16px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.3s;
+}
+
+.btn-print:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 4px 12px rgba(102, 126, 234, 0.4);
+}
+
+.btn-print:active {
+  transform: translateY(0);
+}
+
+.btn-save {
+  padding: 12px 30px;
+  background: linear-gradient(135deg, #4caf50 0%, #45a049 100%);
+  color: white;
+  border: none;
+  border-radius: 6px;
+  font-size: 16px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.3s;
+}
+
+.btn-save:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 4px 12px rgba(76, 175, 80, 0.4);
+}
+
+.btn-report {
+  padding: 12px 30px;
+  background: linear-gradient(135deg, #ff9800 0%, #e68900 100%);
+  color: white;
+  border: none;
+  border-radius: 6px;
+  font-size: 16px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.3s;
+}
+
+.btn-report:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 4px 12px rgba(255, 152, 0, 0.4);
+}
+
+.action-section {
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
+  margin-top: 30px;
+  padding-top: 20px;
+  border-top: 2px solid #eee;
+}
+
+/* Linked Data Section */
+.linked-data-section {
+  background: #f5f5f5;
+  border: 2px solid #e0e0e0;
+  border-radius: 8px;
+  padding: 20px;
+  margin-bottom: 20px;
+}
+
+.linked-data-section h3 {
+  color: #333;
+  margin-top: 0;
+  margin-bottom: 15px;
+  font-size: 18px;
+}
+
+.data-item {
+  background: white;
+  border-left: 4px solid #667eea;
+  padding: 15px;
+  margin-bottom: 12px;
+  border-radius: 4px;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.05);
+}
+
+.data-item h4 {
+  color: #667eea;
+  margin: 0 0 10px 0;
+  font-size: 16px;
+}
+
+.data-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 10px;
+}
+
+.data-grid p {
+  margin: 5px 0;
+  font-size: 14px;
+  color: #555;
+}
+
+.data-grid strong {
+  color: #333;
+}
+
+.completion-status {
+  background: white;
+  border-left: 4px solid #4caf50;
+  padding: 15px;
+  margin-top: 15px;
+  border-radius: 4px;
+}
+
+.completion-status h4 {
+  color: #4caf50;
+  margin: 0 0 10px 0;
+}
+
+.completion-status ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.completion-status li {
+  padding: 5px 0;
+  font-size: 14px;
+  color: #555;
+}
+
+/* Follow-up section */
+.followup-section {
+  background: #e3f2fd;
+  border: 2px solid #bbdefb;
+  border-radius: 8px;
+  padding: 20px;
+  margin: 20px 0;
+}
+
+.followup-section h3 {
+  color: #1976d2;
+  margin-top: 0;
+  margin-bottom: 15px;
+}
+
+.followup-group {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  flex-wrap: wrap;
+}
+
+.followup-group label {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  cursor: pointer;
+  font-weight: 500;
+  color: #555;
+}
+
+.followup-group input[type="checkbox"] {
+  width: 20px;
+  height: 20px;
+  cursor: pointer;
+  accent-color: #1976d2;
+}
+
+.followup-group input[type="number"] {
+  width: 80px;
+  padding: 8px;
+  border: 1px solid #bbb;
+  border-radius: 4px;
+  font-size: 14px;
+}
+
+/* Print Styles */
+@media print {
+  .btn-back,
+  .action-section {
+    display: none;
+  }
+
+  .conclusion-container {
+    box-shadow: none;
+    padding: 0;
+  }
+
+  .linked-data-section {
+    background: white;
+    border: 1px solid #ccc;
+    page-break-inside: avoid;
+  }
+
+  .followup-section {
+    background: white;
+    border: 1px solid #ccc;
+  }
+
+  .completion-status {
+    page-break-inside: avoid;
+  }
+
+  .conclusion-textarea,
+  .recommendations-textarea {
+    border: none;
+    padding: 0;
+  }
+}
+
+@media (max-width: 768px) {
+  .conclusion-container {
+    padding: 20px;
+  }
+
+  .conclusion-container h2 {
+    font-size: 24px;
+  }
+
+  .test-summary {
+    grid-template-columns: 1fr;
+  }
+
+  .health-level-selector {
+    grid-template-columns: 1fr;
+  }
+
+  .conclusion-textarea,
+  .recommendations-textarea {
+    font-size: 16px;
+  }
+}
